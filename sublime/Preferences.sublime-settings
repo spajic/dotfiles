@@ -1,0 +1,14 @@
+// show this with <cmd> + <,>
+{
+  "font_size": 13,
+  "ignored_packages":
+  [],
+  "color_scheme": "Packages/Railscasts Extended/Railscasts Extended.tmTheme",
+  "show_full_path": true,
+  "ensure_newline_at_eof_on_save": true,
+  "trim_trailing_white_space_on_save": true,
+  "translate_tabs_to_spaces": true,
+  "expand_tabs_on_save": true,
+  "tab_size": 2,
+  "folder_exclude_patterns": ["node_modules", "tmp", "log", ".git"],
+}
