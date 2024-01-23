@@ -12,3 +12,24 @@
 - Pretty JSON (format jsons)
 - DiffTabs (spot differences) (right-click on inactive tab, `Diff with current tab...`)
 - SublimeLinter (for rubocop)
+- SublimeLinter-rubocop (rubocop)
+
+
+## Rubocop Integration
+In SublimeLinter User settings add
+
+```json
+"linters": {
+    "rubocop": {
+      "executable": ["~/.rbenv/shims/bundle", "exec", "rubocop"],
+    }
+  }
+```
+
+To debug rubocop
+
+- add "debug": true to SublimeLinter settings
+- see View -> Show Console
+
+## Rubocop Usage
+(Cmd+Ctrl+L) |  Cmd+Shift+P -> Lint this view
